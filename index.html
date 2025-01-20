@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa D'Addio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Festa D'Addio</h1>
+        <p>Enter your name to check your invitation status:</p>
+        <form id="invitationForm">
+            <input type="text" id="nameInput" placeholder="Enter your full name" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="popup" class="hidden">
+            <h2 id="popupMessage"></h2>
+            <div id="balloons"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
